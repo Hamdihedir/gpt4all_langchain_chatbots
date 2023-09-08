@@ -11,10 +11,10 @@ from pydantic import BaseModel, Field
 from langchain.chains import ConversationalRetrievalChain
 
 # Constants
-local_path = "./models/gpt4all-converted.bin"
-model_path = "./models/ggml-model-q4_0.bin"
-text_path = "./docs/state_of_the_union.txt"
-index_path = "./full_sotu_index"
+local_path = "C://Users/USER/Desktop/gpt4all_langchain_chatbots_new/models/gpt4all-converted.bin"  
+model_path = "C://Users/USER/Desktop/gpt4all_langchain_chatbots_new/models/ggml-model-q4_0.bin"
+text_path = "C://Users/USER/Desktop/gpt4all_langchain_chatbots_new/docs/state_of_the_union.txt"
+index_path = "C://Users/USER/Desktop/gpt4all_langchain_chatbots_new/full_sotu_index"
 
 # Functions
 def initialize_embeddings() -> LlamaCppEmbeddings:
